@@ -1,4 +1,5 @@
 {
+  "homepage": "https://inancciftci.github.io/FSWeb-S6-Challenge",
   "name": "fsweb-s6-challenge-intro-to-react",
   "version": "0.1.1",
   "private": true,
@@ -18,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --silent --verbose",
     "eject": "react-scripts eject"
