@@ -1,6 +1,7 @@
 import React from "react";
 import { AccordionBody, AccordionHeader, AccordionItem } from "reactstrap";
 import "./Karakter.css";
+import Movies from "./Movies";
 function Karakter({ item }) {
   return (
     <AccordionItem className="accordion">
@@ -40,6 +41,11 @@ function Karakter({ item }) {
           <strong>Skin Color: </strong>
           {item.skin_color}
         </p>
+        {/* <p>{item.films[0]}</p> */}
+
+        {item.films.map((e) => (
+          <Movies e={e} />
+        ))}
       </AccordionBody>
     </AccordionItem>
   );
