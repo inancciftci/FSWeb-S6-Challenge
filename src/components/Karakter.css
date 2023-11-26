@@ -1,0 +1,15 @@
+.movie-p {
+  opacity: 0.7;
+}
+
+.accordion {
+  text-align: left;
+}
+
+.accordion p:nth-child(2n) {
+  background-color: #ccc;
+}
+
+.accordion p {
+  padding: 10px;
+}
