@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FSWeb-S6-Challenge/static/css/main.163f1bda.css",
+    "main.js": "/FSWeb-S6-Challenge/static/js/main.96ca1541.js",
+    "static/media/sw-bg.jpg": "/FSWeb-S6-Challenge/static/media/sw-bg.cc3b2bff7313bc3a20fd.jpg",
+    "index.html": "/FSWeb-S6-Challenge/index.html",
+    "main.163f1bda.css.map": "/FSWeb-S6-Challenge/static/css/main.163f1bda.css.map",
+    "main.96ca1541.js.map": "/FSWeb-S6-Challenge/static/js/main.96ca1541.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.163f1bda.css",
+    "static/js/main.96ca1541.js"
+  ]
+}
